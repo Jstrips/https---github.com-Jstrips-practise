@@ -19,5 +19,3 @@ for folder , sub_folders , files in os.walk(os.getcwd()+"\\extracted\\extracted_
 for r in results:
     if r != '':
         print(r.group())
-
-print('still works')
